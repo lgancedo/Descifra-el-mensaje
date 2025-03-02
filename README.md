@@ -1,5 +1,4 @@
 # Descifra-el-mensaje
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +25,6 @@
     <button onclick="verificarCodigo()">Desbloquear</button>
     <p id="mensaje"></p>
     <audio id="alarma" src="https://www.soundjay.com/button/beep-10.mp3"></audio>
-    
     <script>
         function verificarCodigo() {
             var codigoIngresado = document.getElementById("codigo").value;
